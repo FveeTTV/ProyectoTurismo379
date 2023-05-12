@@ -1,0 +1,337 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la cabecera */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+/* Contacto*/
+
+
+/* Haeder superior */
+.header__superior{
+    max-width: 1200;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    width: 60px;
+
+}
+
+.search input{
+    width: 100%;
+    padding: 10px;
+}
+/* Barra del menu */
+
+.container__menu{
+    width: 100%;
+    height: 70px;
+    background: #023877;
+}
+
+.menu{
+    max-width: 1200;
+    margin: auto;
+    height: 100%;
+
+}
+
+nav{
+    height: 100%;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+}
+
+nav > ul >li {
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav > ul > li > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: #fff;
+}
+
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background-color: #0074C7;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0,5);    
+}
+
+
+
+/* Estilos para el banner */
+
+#banner {
+    background-image: url("./Re/baner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: #023877;
+    padding: 200px;
+}
+
+#banner h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#banner p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para los destinos */
+
+#destinos{
+    padding: 50px;
+}
+
+#destinos h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#destinos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#destinos li {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#destinos img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#destinos h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#destinos p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#destinos a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#destinos a:hover {
+    background-color: #fff;
+    color: #333;
+}
+ 
+/* acerca de*/
+
+#acerca-de {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+#acerca-de a{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#acerca-de a:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+#acerca-de p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#acerca-de .icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#acerca-de .icono {
+    margin: 0 20px;
+    font-size: 36px;
+}
+
+#contactobg{
+    background-image: url(Re/baner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: auto;
+}
+
+
+/* Estilos para la sección "Testimonios" */
+
+#testimonios {
+    background-image: url("fondo-testimonios.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    color: #023877;
+}
+
+#testimonios h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#testimonios .testimonio {
+    margin-bottom: 30px;
+}
+
+#testimonios .testimonio p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#testimonios .testimonio span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* Estilos para la sección "Acerca de" */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #469dc8;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  input[type="submit"] {
+    background-color: #009dff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #009dff;
+  }
+  
+  input[type="submit"]:active {
+    background-color: #16608e;
+  }
+

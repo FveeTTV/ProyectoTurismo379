@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="estilos.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Re/iconos/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Re/iconos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Re/iconos/favicon-16x16.png">
+    <link rel="manifest" href="Re/iconos/site.webmanifest">
+</head>
+<body id="contactobg">
+    <header>
+		<div class="header__superior">
+			<div class="logo">
+				<img src="./Re/iconos/favicon-32x32.png" alt="">
+			</div>
+ 		</div>
+		 <div class="container__menu">
+			<div class="menu">
+				<nav>
+					<ul>
+						<li><a href="index.html#banner">Inicio</a></li>
+						<li><a href="index.html#destinos">Destinos</a></li>
+						<li><a href="#">Acerca de</a></li>
+					</ul>
+				</nav>
+			</div>
+		 </div>
+	</header>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
