@@ -1,0 +1,37 @@
+#acerca-de {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+#acerca-de a{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#acerca-de a:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+#acerca-de p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#acerca-de .icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#acerca-de .icono {
+    margin: 0 20px;
+    font-size: 36px;
+}
