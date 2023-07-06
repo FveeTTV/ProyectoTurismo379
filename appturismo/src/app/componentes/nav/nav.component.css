@@ -1,0 +1,64 @@
+/* Estilos generales */ 
+
+.search input{
+    width: 100%;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container__menu{
+    width: 100%;
+    height: 60px;
+    background: #023877;
+    align-items: center;
+}
+
+.menu{
+    max-width: 1200;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+}
+
+nav{
+    height: 100%;
+    padding-top: 5px;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul >li {
+    height: 100%;
+    list-style: none;
+    position: relative;
+    align-items: center;
+}
+
+nav > ul > li > a {
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+    transform: scale(1.0);
+    height: 20px;
+    background-color: #0074C7;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0,5);    
+}

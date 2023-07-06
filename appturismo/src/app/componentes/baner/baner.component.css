@@ -1,0 +1,19 @@
+#banner {
+    background-image: url("../../../assets/Re/baner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: #023877;
+    padding: 170px;
+}
+
+#banner h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#banner p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
